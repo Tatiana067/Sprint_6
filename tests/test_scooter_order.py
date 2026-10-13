@@ -6,7 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from url import MAIN_URL, DZEN
 from locators.order_pages_locators import RentalFormLocators
 
-# Тестовые данные для сквозного сценария
 ORDER_TEST_DATA = [
     (
         "top", 
@@ -41,7 +40,7 @@ ORDER_TEST_DATA = [
     ORDER_TEST_DATA
 )
 def test_order_flow(main_page, order_page, button_type, name, surname, address, metro, phone, date, duration, color_locator, comment):
-    # 1. Открываем главную страницу
+    
     main_page.open_main_page()
     
     try:
@@ -51,18 +50,18 @@ def test_order_flow(main_page, order_page, button_type, name, surname, address, 
 
     driver = main_page.driver
 
-    # Выбор и клик по кнопке заказа в зависимости от параметра
+    
     if button_type == "top":
         WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable(RentalFormLocators.ORDER_BUTTON_1)
         ).click()
     else:
-        # Автоматический нативный клик со встроенным скроллом от Selenium
+        
         WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable(RentalFormLocators.ORDER_BUTTON_2)
         ).click()
 
-    # Заполнение первой и второй форм заказа
+    
     order_page.fill_order_form(
         name=name, 
         surname=surname, 
@@ -78,16 +77,16 @@ def test_order_flow(main_page, order_page, button_type, name, surname, address, 
     )
     order_page.confirm_order()
 
-    # Проверка модального окна успешного заказа
+    
     assert order_page.is_order_placed_modal_displayed(), "Окно 'Заказ оформлен' не появилось!"
 
-    # Проверка клика по логотипу "Самокат"
+    
     order_page.click_scooter_logo()
     assert MAIN_URL in order_page.driver.current_url, (
         f"Логотип не вернул на главную. Текущий URL: {order_page.driver.current_url}"
     )
 
-    # Проверка клика по логотипу "Яндекс" и перехода на Дзен
+
     order_page.click_yandex_logo()
     current_dzen_url = order_page.switch_to_dzen_tab()
     assert DZEN in current_dzen_url, (

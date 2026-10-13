@@ -7,7 +7,7 @@ class OrderLocators:
     ADDRESS_FIELD = (By.XPATH, "//input[contains(@placeholder, 'Адрес')]")
     METRO_FIELD = (By.XPATH, "//input[contains(@placeholder, 'Станция метро')]")
     
-    # Новый устойчивый локатор для элемента из выпадающего списка метро:
+    
     METRO_DROPDOWN_ITEM = (By.XPATH, "//div[contains(@class, 'select-search__select')]//button")
     
     PHONE_FIELD = (By.XPATH, "//input[contains(@placeholder, 'Телефон')]")
@@ -32,5 +32,5 @@ class PopUpWindowLocators: # всплывающее окно подтвержд�
     YES_BUTTON = (By.XPATH, "//button[text()='Да']")
     NOT_BUTTON = (By.XPATH, "//button[text()='Нет']")
 
-class OrderPlacedWindowLocators: # ИСПРАВЛЕНО: Добавлен пропущенный класс для поп-апа успеха
+class OrderPlacedWindowLocators: 
     ORDER_PLACE_WINDOW = (By.XPATH, "//div[text()='Заказ оформлен']")

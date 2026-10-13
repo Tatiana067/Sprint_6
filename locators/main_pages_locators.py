@@ -7,7 +7,7 @@ class MainLocators:
     COOKIE_CONFIRM_BUTTON = (By.XPATH, "//button[@id='rcc-confirm-button']")
     IMPORTANT_QUESTION_TEXT = (By.XPATH, "//div[text()='Вопросы о важном']")
 
-    # Локаторы вопросов по ID (самый стабильный вариант для Яндекс.Самоката)
+    # Локаторы вопросов
     IMPORTANT_QUESTION_1 = (By.XPATH, "//div[@id='accordion_heading-0']")
     IMPORTANT_QUESTION_2 = (By.XPATH, "//div[@id='accordion_heading-1']")
     IMPORTANT_QUESTION_3 = (By.XPATH, "//div[@id='accordion_heading-2']")
@@ -17,7 +17,7 @@ class MainLocators:
     IMPORTANT_QUESTION_7 = (By.XPATH, "//div[@id='accordion_heading-6']")
     IMPORTANT_QUESTION_8 = (By.XPATH, "//div[@id='accordion_heading-7']")
 
-    # Локаторы ответов по ID
+    # Локаторы ответов
     IMPORTANT_ANSWER_1 = (By.XPATH, "//div[@id='accordion_panel-0']/p")
     IMPORTANT_ANSWER_2 = (By.XPATH, "//div[@id='accordion_panel-1']/p")
     IMPORTANT_ANSWER_3 = (By.XPATH, "//div[@id='accordion_panel-2']/p")
