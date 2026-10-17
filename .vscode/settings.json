@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\A\\Sprint_6\\venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": ["./pages", "./locators"]
+}
