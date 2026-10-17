@@ -18,9 +18,6 @@ class MainPage(BasePage):
 
     @allure.step("Проверить наличие логотипа 'Самокат'")
     def is_logo_scooter_displayed(self):
-        # Метод wait возвращает элемент, когда он становится видимым
-        element = WebDriverWait(self.driver, TIMEOUT).until(
-            EC.visibility_of_element_located(BaseLocators.LOGO_SCOOTER)
-        )
+        element = WebDriverWait(self.driver, TIMEOUT).until(EC.visibility_of_element_located(BaseLocators.LOGO_SCOOTER))
+        
         return element
-

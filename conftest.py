@@ -1,6 +1,5 @@
 import pytest
 from selenium import webdriver
-# ИСПРАВЛЕНО: импортируем из main_pages, а не из base_pages
 from pages.main_pages import MainPage 
 from pages.order_pages import OrderPage
 
