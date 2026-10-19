@@ -1,0 +1,179 @@
+{
+  "uid" : "aa6348e3a07de1ba",
+  "name" : "Проверка соответствия ответов на вопросы",
+  "fullName" : "tests.test_questions_answers.TestMainPageAccordion#test_important_questions_and_answers",
+  "historyId" : "e7a84bcb117d74827de8436589ef33ba",
+  "time" : {
+    "start" : 1792407888554,
+    "stop" : 1792407891824,
+    "duration" : 3270
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "main_page",
+    "time" : {
+      "start" : 1792407888551,
+      "stop" : 1792407888551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1792407881330,
+      "stop" : 1792407888550,
+      "duration" : 7220
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу Самоката",
+      "time" : {
+        "start" : 1792407888555,
+        "stop" : 1792407891458,
+        "duration" : 2903
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Принять файлы cookie",
+      "time" : {
+        "start" : 1792407891458,
+        "stop" : 1792407891595,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть на вопрос",
+      "time" : {
+        "start" : 1792407891596,
+        "stop" : 1792407891725,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "question",
+        "value" : "('id', 'accordion__heading-1')"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Получить текст ответа",
+      "time" : {
+        "start" : 1792407891725,
+        "stop" : 1792407891824,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "answer",
+        "value" : "('id', 'accordion__panel-1')"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1792407891826,
+      "stop" : 1792407895218,
+      "duration" : 3392
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_questions_answers"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMainPageAccordion"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RE7DATH"
+  }, {
+    "name" : "thread",
+    "value" : "11652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_questions_answers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "index",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa6348e3a07de1ba.json",
+  "parameterValues" : [ "1" ]
+}
