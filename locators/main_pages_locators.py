@@ -1,11 +1,9 @@
 from selenium.webdriver.common.by import By
 
 class MainLocators: # Главная страница Самоката
-    ORDER_BUTTON_1 = (By.XPATH, "//button[text()='Заказать']")
-    ORDER_STATUS_TEXT = (By.XPATH, "//button[text()='Статус заказа']")
-    ORDER_BUTTON_2 = (By.XPATH, "//div[starts-with(@class, 'Home_FinishButton__')]/button[text()='Заказать']")
-    COOKIE_CONFIRM_BUTTON = (By.XPATH, "//button[@id='rcc-confirm-button']")
-    IMPORTANT_QUESTION_TEXT = (By.XPATH, "//div[text()='Вопросы о важном']")
+    ORDER_BUTTON_2 = (By.XPATH, "//div[starts-with(@class, 'Home_FinishButton__')]/button[text()='Заказать']") # кнопка Закатья внизу страницы
+    COOKIE_CONFIRM_BUTTON = (By.XPATH, "//button[@id='rcc-confirm-button']") # кнопка принять файлы Cookie
+    IMPORTANT_QUESTION_TEXT = (By.XPATH, "//div[text()='Вопросы о важном']") # текст на странице Вопросы о важном
 
     # Локаторы вопросов
     IMPORTANT_QUESTION_1 = (By.ID, "accordion__heading-0")
