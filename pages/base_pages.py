@@ -11,26 +11,33 @@ class BasePage:
     def __init__(self, driver):
         self._driver = driver
 
+    @allure.step('Универсальный метод, который ожидает любой элемент на странице')
     def _wait_visible(self, locator, timeout=TIMEOUT):
         return WebDriverWait(self._driver, timeout).until(EC.visibility_of_element_located(locator))
 
+    @allure.step('Ожидание присутствия любого элемента в DOM')
     def _wait_presence(self, locator, timeout=TIMEOUT):
         return WebDriverWait(self._driver, timeout).until(EC.presence_of_element_located(locator))
 
+    @allure.step('Ожидание кликабельности элемента')
     def _wait_clickable(self, locator, timeout=TIMEOUT):
         return WebDriverWait(self._driver, timeout).until(EC.element_to_be_clickable(locator))
 
+    @allure.step('Проверка, что клик по элементу работает')
     def _click(self, locator, timeout=TIMEOUT):
         self._wait_clickable(locator, timeout).click()
 
+    @allure.step('Ввести текст в элемент в любое допустимое поле')
     def _send_keys(self, locator, text, timeout=TIMEOUT):
         element = self._wait_visible(locator, timeout)
         element.send_keys(text)
 
+    @allure.step('Проскроллить до элемента')
     def _scroll_into_view(self, locator, timeout=TIMEOUT):
         element = self._wait_presence(locator, timeout)
         self._driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
 
+    @allure.step('Получить текст элемента')
     def _get_text(self, locator, timeout=TIMEOUT):
         element = self._wait_presence(locator, timeout)
         return element.text
