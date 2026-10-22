@@ -1,0 +1,347 @@
+{
+  "uid" : "575b63adc347f9ec",
+  "name" : "Заказ самоката с двумя наборами данных",
+  "fullName" : "tests.test_scooter_order.TestScooterOrderFlow#test_order_flow_and_header_logos",
+  "historyId" : "3d95fcbe1e9a80c76d0a4f8c3c804dea",
+  "time" : {
+    "start" : 1792407985236,
+    "stop" : 1792407992052,
+    "duration" : 6816
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1792407978153,
+      "stop" : 1792407985231,
+      "duration" : 7078
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "main_page",
+    "time" : {
+      "start" : 1792407985231,
+      "stop" : 1792407985232,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "order_page",
+    "time" : {
+      "start" : 1792407985232,
+      "stop" : 1792407985232,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу Самоката",
+      "time" : {
+        "start" : 1792407985236,
+        "stop" : 1792407987635,
+        "duration" : 2399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Принять файлы cookie",
+      "time" : {
+        "start" : 1792407987635,
+        "stop" : 1792407987840,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить форму Для кого самокат",
+      "time" : {
+        "start" : 1792407987952,
+        "stop" : 1792407989223,
+        "duration" : 1271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'Иван'"
+      }, {
+        "name" : "lastname",
+        "value" : "'Петров'"
+      }, {
+        "name" : "address",
+        "value" : "'ул. Ленина, д. 10'"
+      }, {
+        "name" : "metro_name",
+        "value" : "'Преображенская площадь'"
+      }, {
+        "name" : "phone",
+        "value" : "'89991112233'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить форму Про аренду",
+      "time" : {
+        "start" : 1792407989223,
+        "stop" : 1792407990482,
+        "duration" : 1259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "date_text",
+        "value" : "'25.10.2026'"
+      }, {
+        "name" : "duration_text",
+        "value" : "'сутки'"
+      }, {
+        "name" : "color_checkbox",
+        "value" : "('xpath', \"//label[@for='black']\")"
+      }, {
+        "name" : "comment",
+        "value" : "'Доставить в 10.00'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Подтвердить заказ в модальном окне",
+      "time" : {
+        "start" : 1792407990482,
+        "stop" : 1792407990585,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить, что появилось окно Заказ оформлен",
+      "time" : {
+        "start" : 1792407990585,
+        "stop" : 1792407990599,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть на кнопку Посмотреть статус",
+      "time" : {
+        "start" : 1792407990599,
+        "stop" : 1792407990686,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть на логотип Самоката",
+      "time" : {
+        "start" : 1792407990686,
+        "stop" : 1792407990799,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить отображение логотипа Самоката",
+      "time" : {
+        "start" : 1792407990799,
+        "stop" : 1792407990822,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть на логотип Яндекс",
+      "time" : {
+        "start" : 1792407990822,
+        "stop" : 1792407990963,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Переключиться на открывшуюся вкладку Дзена",
+      "time" : {
+        "start" : 1792407990963,
+        "stop" : 1792407992052,
+        "duration" : 1089
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1792407992065,
+      "stop" : 1792407999402,
+      "duration" : 7337
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_scooter_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestScooterOrderFlow"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RE7DATH"
+  }, {
+    "name" : "thread",
+    "value" : "11652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_scooter_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'ул. Ленина, д. 10'"
+  }, {
+    "name" : "button_type",
+    "value" : "'top'"
+  }, {
+    "name" : "color_locator",
+    "value" : "('xpath', \"//label[@for='black']\")"
+  }, {
+    "name" : "comment",
+    "value" : "'Доставить в 10.00'"
+  }, {
+    "name" : "date",
+    "value" : "'25.10.2026'"
+  }, {
+    "name" : "duration",
+    "value" : "'сутки'"
+  }, {
+    "name" : "lastname",
+    "value" : "'Петров'"
+  }, {
+    "name" : "metro",
+    "value" : "'Преображенская площадь'"
+  }, {
+    "name" : "name",
+    "value" : "'Иван'"
+  }, {
+    "name" : "phone",
+    "value" : "'89991112233'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "575b63adc347f9ec.json",
+  "parameterValues" : [ "'ул. Ленина, д. 10'", "'top'", "('xpath', \"//label[@for='black']\")", "'Доставить в 10.00'", "'25.10.2026'", "'сутки'", "'Петров'", "'Преображенская площадь'", "'Иван'", "'89991112233'" ]
+}

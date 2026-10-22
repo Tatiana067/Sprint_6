@@ -1,0 +1,137 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Проверка отображения логотипа Самоката",
+    "uid" : "44409c93a51ddc70",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407862154,
+      "stop" : 1792407864829,
+      "duration" : 2675
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка соответствия ответов на вопросы",
+    "uid" : "d898ef48b1a5cb1c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407875476,
+      "stop" : 1792407877922,
+      "duration" : 2446
+    },
+    "flaky" : false,
+    "parameters" : [ "0" ]
+  }, {
+    "name" : "Проверка соответствия ответов на вопросы",
+    "uid" : "aa6348e3a07de1ba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407888554,
+      "stop" : 1792407891824,
+      "duration" : 3270
+    },
+    "flaky" : false,
+    "parameters" : [ "1" ]
+  }, {
+    "name" : "Проверка соответствия ответов на вопросы",
+    "uid" : "b15810f98ec307ba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407902267,
+      "stop" : 1792407905224,
+      "duration" : 2957
+    },
+    "flaky" : false,
+    "parameters" : [ "2" ]
+  }, {
+    "name" : "Проверка соответствия ответов на вопросы",
+    "uid" : "1a99bb888da50cfe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407915673,
+      "stop" : 1792407921002,
+      "duration" : 5329
+    },
+    "flaky" : false,
+    "parameters" : [ "3" ]
+  }, {
+    "name" : "Проверка соответствия ответов на вопросы",
+    "uid" : "60ee5df252725bf9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407931619,
+      "stop" : 1792407934833,
+      "duration" : 3214
+    },
+    "flaky" : false,
+    "parameters" : [ "4" ]
+  }, {
+    "name" : "Проверка соответствия ответов на вопросы",
+    "uid" : "843b5d12852a61f7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407945331,
+      "stop" : 1792407948271,
+      "duration" : 2940
+    },
+    "flaky" : false,
+    "parameters" : [ "5" ]
+  }, {
+    "name" : "Проверка соответствия ответов на вопросы",
+    "uid" : "3579d77ac072c0dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407958536,
+      "stop" : 1792407961613,
+      "duration" : 3077
+    },
+    "flaky" : false,
+    "parameters" : [ "6" ]
+  }, {
+    "name" : "Проверка соответствия ответов на вопросы",
+    "uid" : "9934de3305c1b1b6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407972572,
+      "stop" : 1792407974996,
+      "duration" : 2424
+    },
+    "flaky" : false,
+    "parameters" : [ "7" ]
+  }, {
+    "name" : "Заказ самоката с двумя наборами данных",
+    "uid" : "575b63adc347f9ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792407985236,
+      "stop" : 1792407992052,
+      "duration" : 6816
+    },
+    "flaky" : false,
+    "parameters" : [ "'ул. Ленина, д. 10'", "'top'", "('xpath', \"//label[@for='black']\")", "'Доставить в 10.00'", "'25.10.2026'", "'сутки'", "'Петров'", "'Преображенская площадь'", "'Иван'", "'89991112233'" ]
+  }, {
+    "name" : "Заказ самоката с двумя наборами данных",
+    "uid" : "d563453bcd97cdef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1792408007222,
+      "stop" : 1792408013189,
+      "duration" : 5967
+    },
+    "flaky" : false,
+    "parameters" : [ "'проспект Мира, д. 5'", "'bottom'", "('xpath', \"//label[@for='grey']\")", "'Третий подъезд'", "'26.10.2026'", "'двое суток'", "'Смирнова'", "'Сокольники'", "'Анна'", "'89115556677'" ]
+  } ]
+}
